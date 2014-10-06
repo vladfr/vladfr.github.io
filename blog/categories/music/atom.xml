@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Music | @vladfr]]></title>
+  <link href="http://vladfr.github.io/blog/categories/music/atom.xml" rel="self"/>
+  <link href="http://vladfr.github.io/"/>
+  <updated>2014-10-06T07:40:11+03:00</updated>
+  <id>http://vladfr.github.io/</id>
+  <author>
+    <name><![CDATA[Vlad Frățilă]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Monday Morning, 3 Am]]></title>
+    <link href="http://vladfr.github.io/blog/2014/10/06/monday-morning/"/>
+    <updated>2014-10-06T04:42:36+03:00</updated>
+    <id>http://vladfr.github.io/blog/2014/10/06/monday-morning</id>
+    <content type="html"><![CDATA[<p>Not feeling very productive at 3 am; I am not able to sleep either.</p>
+
+<p>I resort to music. Seems like a good excuse to work on the blog &ndash; finally (eventually I&rsquo;d get to it, I guess it&rsquo;s just one of those things that you know its time is coming, but <em>now</em> is never the time, though somewhere in your distant future it undoubtedly will be).</p>
+
+<p><em>(also not a good time to look at <a href="https://rubygems.org/gems/rake">rake</a> tasks for the first time)</em></p>
+
+<p>So here it is: my 3AM playlist, Enjoy:</p>
+
+<object width="600" height="250" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gsPlaylist10142263922" name="gsPlaylist10142263922"><param name="movie" value="http://grooveshark.com/widget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&playlistID=101422639&p=0&bbg=000000&bth=000000&pfg=000000&lfg=000000&bt=ffffff&pbg=ffffff&pfgh=ffffff&si=ffffff&lbg=ffffff&lfgh=ffffff&sb=ffffff&bfg=e8365f&pbgh=e8365f&lbgh=e8365f&sbh=e8365f" /><object type="application/x-shockwave-flash" data="http://grooveshark.com/widget.swf" width="600" height="250"><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&playlistID=101422639&p=0&bbg=000000&bth=000000&pfg=000000&lfg=000000&bt=ffffff&pbg=ffffff&pfgh=ffffff&si=ffffff&lbg=ffffff&lfgh=ffffff&sb=ffffff&bfg=e8365f&pbgh=e8365f&lbgh=e8365f&sbh=e8365f" /><span><a href="http://grooveshark.com/search/playlist?q=Monday%20Morning%2C%203%20AM%20Vlad%20Fratila" title="Monday Morning, 3 AM by Vlad Fratila on Grooveshark">Monday Morning, 3 AM by Vlad Fratila on Grooveshark</a></span></object></object>
+
+]]></content>
+  </entry>
+  
+</feed>
