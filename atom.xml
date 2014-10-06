@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[vlad fratila]]></title>
+  <link href="http://vladfr.github.io/atom.xml" rel="self"/>
+  <link href="http://vladfr.github.io/"/>
+  <updated>2014-01-07T03:40:25+02:00</updated>
+  <id>http://vladfr.github.io/</id>
+  <author>
+    <name><![CDATA[Vlad Fratila]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Twitter Bootstrap for complete hackers]]></title>
+    <link href="http://vladfr.github.io/blog/2014/01/07/twitter-bootstrap-for-complete-hackers/"/>
+    <updated>2014-01-07T03:22:46+02:00</updated>
+    <id>http://vladfr.github.io/blog/2014/01/07/twitter-bootstrap-for-complete-hackers</id>
+    <content type="html"><![CDATA[<p>I&rsquo;ve tried now more than once to get started with Bootstrap efficiently. I find it&rsquo;s a nice framework for authoring when you&rsquo;re a hard-core geek, but I lack design practice (I like to think that it&rsquo;s the only thing I&rsquo;m missing when it comes to visual design &ndash; although alas, the voice of reason yells loudly) so I decided to make an exhaustive list of all the little things to turn Bootstrap into a powerhouse.</p>
+
+<p>This will be a work-in-progress, but the goal is to have as few resources as possible at the best quality, i.e. he most complete component (slider, modal) or the two most representative &ldquo;Flat Design&rdquo; themes.</p>
+
+<h2>Articles</h2>
+
+<h2>Templates</h2>
+
+<p><a href="http://startbootstrap.com/modern-business">http://startbootstrap.com/modern-business</a></p>
+
+<h2>Themes</h2>
+
+<h2>#</h2>
+
+<p>Flat
+<a href="http://cardeostrap.cardeo.ca/">http://cardeostrap.cardeo.ca/</a>
+<a href="http://flatstrap.org/index.html">http://flatstrap.org/index.html</a></p>
+
+<p>Builders
+<a href="http://pikock.github.io/bootstrap-magic/app/index.html#!/editor">http://pikock.github.io/bootstrap-magic/app/index.html#!/editor</a></p>
+
+<h2>Components</h2>
+
+<p><a href="https://github.com/mapb1990/bootstrap-social-buttons">https://github.com/mapb1990/bootstrap-social-buttons</a>
+<a href="http://tableclothjs.com/">http://tableclothjs.com/</a></p>
+
+<h2>Javascript</h2>
+
+<p><a href="http://jschr.github.io/bootstrap-modal/bs3.html">http://jschr.github.io/bootstrap-modal/bs3.html</a>
+<a href="http://jasonbutz.info/bootstrap-lightbox/">http://jasonbutz.info/bootstrap-lightbox/</a>
+<a href="http://exacttarget.github.io/fuelux/#">http://exacttarget.github.io/fuelux/#</a></p>
+
+<h2>Other lists</h2>
+
+<p>There are other lists out there, filled with Boostrap resources, and why not?
+<a href="http://bootsnipp.com/resources#2">http://bootsnipp.com/resources#2</a></p>
+]]></content>
+  </entry>
+  
+</feed>
