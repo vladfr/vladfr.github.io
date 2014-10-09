@@ -44,10 +44,11 @@
 				</div> <!-- // .navi -->
 			</div>
 			
-			<div class="hero-shadow"></div>
 		</div>
 		
 		{{ content | expand_urls: root_url }}
+
+		{% include footer.html %}
 		
 	</body>
 	<script>

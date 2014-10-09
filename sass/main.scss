@@ -24,6 +24,7 @@ body {
 	font-family: $body-font;
 	font-size: $body-font-size;
 	color: $black;
+	background-color: #FBFBFB;
 	
 	@media only screen and (max-width: 1000px) {
 		font-size: 0.9em;
@@ -54,6 +55,7 @@ h2 {
 	margin: 0 auto;
 	background: #fff;
 	width: 100%;
+	@include box-shadow(0px -40px 182px -19px rgba(0,0,0,0.4));
 	
 	/* blog footer */
 	& > footer {
@@ -165,8 +167,7 @@ header {
 
 article {
 	margin: 0 auto;
-	margin-bottom: $space-between-posts*1em;
-	padding: 1em 0 0 0;
+	padding: 1em 0 $space-between-posts*1em 0;
 	font-size: $post-font-size;
 	line-height: $post-font-line-height;
 	text-align: $post-align;
@@ -250,7 +251,7 @@ ul.sharing {
 		display: block;
 	}
 	.hero-shadow {
-		box-shadow: inset 1px -111px 99px -12px rgba(0,0,0,0.4);
+		box-shadow: outset 1px -111px 99px -12px rgba(0,0,0,0.4);
 		position: absolute;
 		top: 0;
 		width: 100%;
@@ -329,6 +330,11 @@ p > code {
 		text-align: center;
 		}
 	}
+
+footer {
+	margin: 2em auto 4em auto;
+	text-align: center;
+}
 	
 /* Archive and tags listings */
 .cat-year {
