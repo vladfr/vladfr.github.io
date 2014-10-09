@@ -30,39 +30,25 @@
 		
 	</head>
 	<body onload="prettyPrint()">
-	
 		
-		<div class="hero-image">
-			{% if page.image %}	
-				<img src="/images/{{ page.image }}" />
-			{% else %}
-				<img src="/images/{{ site.hero_image }}" />
-			{% endif %}
-
+		<div class="hero-image" style="background-image: url(/images/{% if page.image %}{{ page.image }}{% else %}{{ site.hero_image }}{% endif %})">
+			<div class="site-title">
+				<div class="title">{{ site.title }}</div>
+				<div class="subtitle">{{ site.subtitle }}</div>
+				
+				<div class="navi">
+					<ul>
+						<li><a href="{{ root_url }}/">Blog</a></li>
+						<li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+					</ul>
+				</div> <!-- // .navi -->
+			</div>
+			
+			<div class="hero-shadow"></div>
 		</div>
 		
-
-		<header class="site-title">
-			<div class="title">{{ site.title }}</div>
-			<div class="subtitle">{{ site.subtitle }}</div>
-			
-			<div class="navi">
-				<ul>
-					<li><a href="{{ root_url }}/">Blog</a></li>
-					<li><a href="{{ root_url }}/blog/archives">Archives</a></li>
-				</ul>
-			</div> <!-- // .navi -->
-		</header>
-
-		<div class="wrap">
+		{{ content | expand_urls: root_url }}
 		
-				{{ content | expand_urls: root_url }}
-		
-			<footer>
-				{% include footer.html %}
-			</footer>
-			
-		</div> <!-- // .wrap -->
 	</body>
 	<script>
 		$(document).ready(function() {
