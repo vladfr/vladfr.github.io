@@ -80,12 +80,12 @@ h2 {
 		font-size: $blog-title-font-size;
 		text-transform: $blog-title-text-transform;
 		color: white;
-		text-shadow: 3px 3px 1px rgba(50, 50, 50, 1);
+		text-shadow: 3px 3px 1px #3F3F3F;
 		}
 	
 	.subtitle{
 		font-family: $blog-subtitle-font;
-		text-shadow: 3px 3px 1px rgba(50, 50, 50, 1);
+		text-shadow: 3px 3px 1px #3F3F3F;
 		color: white;
 		}
 	
@@ -145,7 +145,7 @@ header {
 		font-style: $post-title-font-style;
 		line-height: $post-title-line-height;
 		text-align: $post-title-align;
-		text-shadow: 3px 3px 1px rgba(150, 150, 150, 1);
+		text-shadow: 3px 3px 1px #3F3F3F;
 
 			a {
 				color: white;
