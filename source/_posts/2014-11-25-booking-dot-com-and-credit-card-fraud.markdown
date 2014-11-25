@@ -28,4 +28,4 @@ Booking.com is based in Amsterdam, Netherlands - a city hosting the 8th edition 
 
 I don't understand how such a conduct is possible, so I'll keep looking into the issue. I've contacted Booking.com and I'm waiting to see what they have to say. I found many posts on the web with similar issues, some dating as far as [2010](http://www.complaintsboard.com/complaints/bookingcom-c238032.html). Any thoughts are appreciated.
 
-Comment on [HackerNews](news.ycombinator.com)!
+Comment on [HackerNews](https://news.ycombinator.com/item?id=8660105)!
