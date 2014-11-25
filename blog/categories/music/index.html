@@ -1,5 +1,5 @@
-
 <!doctype html>
+
 <!-- START OF _layouts/default.html -->
 <html lang="en">
 	<head>
@@ -8,53 +8,30 @@
 		<meta content="width=device-width,initial-scale=1" name="viewport">
 		<meta content="" name="description">
 		<meta content="@vladfr" name="author">
-		
+
 		<title>Category: music &mdash; @vladfr</title>
-		
+
 		<!-- Styles -->
 		<link href="/stylesheets/main.css" rel="stylesheet">
-		
+
 		<!-- Google webfonts -->
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
 		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
-		
+
 		<!-- jQuery and plugins -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 		<script src="/js/jquery.zclip.min.js"></script>
-		
+
 		<!-- Syntax highlighter -->
 		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
 		<script type="text/javascript" src="/js/prettify.js"></script>
-		
+
 		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="@vladfr" type="application/rss+xml" />-->
-		
+
 	</head>
 	<body onload="prettyPrint()">
-	
-		
-		<div class="hero-image">
-			
-				<img src="/images/nightswimming.jpg" />
-			
 
-		</div>
-		
-
-		<header class="site-title">
-			<div class="title">@vladfr</div>
-			<div class="subtitle">vlad frățilă<br> web hacker + devops enthusiast<br> music lover / eclectic to a fault</div>
-			
-			<div class="navi">
-				<ul>
-					<li><a href="/">Blog</a></li>
-					<li><a href="/blog/archives">Archives</a></li>
-				</ul>
-			</div> <!-- // .navi -->
-		</header>
-
-		<div class="wrap">
-		
-				<!-- START OF _layouts/page.html -->
+		<!-- START OF _layouts/page.html -->
 <article>
 <header>
 	
@@ -89,75 +66,44 @@
 </article>
 <!-- END OF _layouts/page.html -->
 
-		
-			<footer>
-				
+
+		<footer>
+	<a href="https://twitter.com/vladfr" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @vladfr</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</footer>
+
 <script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId      : '1518880798354282',
-      xfbml      : true,
-      version    : 'v2.1'
-    });
-  };
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 0){
+  	$('.hero-image').css('top', -($(this).scrollTop() / 2) + 'px');
+  	var alpha = 0.4 + $(this).scrollTop() / 150
+  	$('.wrap').css('box-shadow', '0px -40px 182px -19px rgba(0,0,0,'+alpha.toPrecision(2)+')');
 
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "//connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
+    var opacity = 1 - ($(this).scrollTop() / 200).toPrecision(2);
+    $('.subtitle').css('opacity', opacity);
+  }
+  else {
+    $('.subtitle').css('opacity', 1);
+  	$('.hero-image').css('top', 0);
+  	$('.wrap').css('box-shadow', '0px -40px 182px -19px rgba(0,0,0,0.3)')
+  }
+});
 </script>
-
-
-
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = '//platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
-
-
-
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-      var disqus_shortname = 'vladfr';
-      
-        
-        var disqus_script = 'count.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
-
-
-			</footer>
-			
-		</div> <!-- // .wrap -->
 	</body>
 	<script>
 		$(document).ready(function() {
 			// Make images center
 			$('p:has(img)').css('text-align', 'center');
-			
+
 			// Add the image's title attribute as a caption
 			$('p:has(img)').append(function () {
 				return '<div class="caption">' + ($('img', this).attr('title') || "") + '</div>';
 			});
-			
+
 			// Prettify code
 			$('code').addClass('prettyprint');
 			$('pre code').addClass('linenums');
-			
+
 			// Copy to clipboard with button
 			$('pre:has(code)').prepend(function(){
 				return '<div class="clip-btn">copy to clipboard</div>';

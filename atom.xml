@@ -4,7 +4,7 @@
 	<title><![CDATA[@vladfr]]></title>
 	<link href="http://vladfr.github.io/atom.xml" rel="self"/>
 	<link href="http://vladfr.github.io/"/>
-	<updated>2014-10-06T07:40:11+03:00</updated>
+	<updated>2014-11-26T00:07:49+02:00</updated>
 	<id>http://vladfr.github.io/</id>
 	<author>
 		<name><![CDATA[Vlad Frățilă]]></name>
@@ -12,6 +12,40 @@
 	</author>
 	<generator uri="http://octopress.org/">Octopress</generator>
 
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Booking.com and Credit Card Fraud]]></title>
+		
+		<link href="http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/"/>
+		<updated>2014-11-25T19:29:55+02:00</updated>
+		<id>http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>We took a weekend trip to Sighisoara recently &ndash; a small medieval town in the heart of Romania &ndash; and while it was a very nice stay, there&rsquo;s one little thing that bothered me greatly.</p>
+
+<p>You see, I used <a href="http://booking.com">Booking.com</a> to rent a hotel room, and I had to guarantee my reservation to the hotel with a credit card. Upon arrival at said hotel, I was baffled to see my full credit card details, including my <abbr>CVV/CVC</abbr>, printed on a piece of paper.</p>
+
+<p>Yes, you read it right: <em>my full credit card data</em>. Once home, I went through the purchase process again, went through email receipts and Booking.com&rsquo;s Privacy and Terms pages &ndash; there is no mention of this what-so-ever. Also of interest: there&rsquo;s no mention of PCI-DSS on their website, which should have ticked me off, were I not overjoyed at the thought of our upcoming getaway.</p>
+
+<blockquote><p>Booking.com has over 500.000 listings as of mid-2014.</p></blockquote>
+
+<p>Booking.com seems to be the leading travel site out there, with over 200M monthly visits as of June this year; while the bulk of its traffic comes from Europe, the web site is rapidly growing in the United states (source: <a href="http://skift.com/2014/06/17/the-most-popular-online-booking-sites-in-travel-2014-edition/">skift.com</a>). In July 2014, booking.com <a href="http://news.booking.com/one-in-half-a-million/">announced</a> they passed 500.000 listings.</p>
+
+<p>Acquired in 2006 by the US-based <a href="http://quotes.morningstar.com/stock/s?t=PCLN">Priceline group</a>, Booking.com is the group&rsquo;s highest earner, making over 2/3 of the total revenue (source: <a href="http://www.bloomberg.com/news/2013-01-22/booking-com-challenging-parent-priceline-in-u-s-travel.html">bloomberg.com</a>). Priceline&rsquo;s share price continues to grow steadily since the Booking.com acquisition, which analysts consider the most profitable travel acquisition of the past decade, <a href="http://www.tnooz.com/article/why-pricelines-purchase-of-booking-com-was-the-most-profitable-travel-deal-of-the-2000s/">as cited by tnooz.com</a>.</p>
+
+<blockquote><p>Booking.com is based in Amsterdam &ndash; the host of the &ldquo;PCI Europe&rdquo; event.</p></blockquote>
+
+<p>Booking.com is based in the EU in Amsterdam, Netherlands, a city which coincidentally is hosting the 8th edition of the <a href="http://www.pci-portal.com/event/pcieurope14">PCI Europe</a> conference in just a few days. The irony won&rsquo;t escape anyone, and I don&rsquo;t understand how it is possible.</p>
+
+<p>Comment on <a href="news.ycombinator.com">HackerNews</a>!</p>
+]]>
+		</content>
+	</entry>
 	
 	<entry>
 		
