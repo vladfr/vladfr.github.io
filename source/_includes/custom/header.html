@@ -1,6 +1,14 @@
-<hgroup>
-  <h1><a href="{{ root_url }}/">{{ site.title }}</a></h1>
-  {% if site.subtitle %}
-    <h2>{{ site.subtitle }}</h2>
-  {% endif %}
-</hgroup>
+<div class="site-header">
+<div class="site-title-shadow"></div>
+<div class="site-title">
+    <a class="title" href="{{ root_url }}/">{{ site.title }}</a>
+    <div class="subtitle">{{ site.subtitle }}</div>
+
+    <div class="navi">
+        <ul>
+            <li><a href="{{ root_url }}/">Blog</a></li>
+            <li><a href="{{ root_url }}/blog/archives">Archives</a></li>
+        </ul>
+    </div> <!-- // .navi -->
+</div>
+</div>

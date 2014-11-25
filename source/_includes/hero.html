@@ -1,0 +1,17 @@
+    {% include header.html %}
+
+    <div class="hero-image" style="background-image: url(/images/{{ page.image }})">
+    </div>
+
+    {% if page.image-credit %}
+    <div class="hero-caption">
+        image:&nbsp;
+        {% if page.image-credit-link %}
+            <a href="{{ page.image-credit-link }}">
+        {% endif %}
+        {{ page.image-credit }}
+        {% if page.image-credit-link %}
+            </a>
+        {% endif %}
+    </div>
+    {% endif %}

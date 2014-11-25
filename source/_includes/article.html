@@ -10,7 +10,7 @@
         	{% include post/sharing.html %}
       	{% endunless %}
 		{% include post/categories.html %}
-	
+
 		{% if page.source.url %}via <a href="{{ page.source.url }}">{{ page.source.title }}</a>{% endif %}
 
 		{% include disqus.html %}
@@ -18,6 +18,5 @@
 		{% include facebook_like.html %}
 		{% include twitter_sharing.html %}
 	</footer>
-	
 </article>
 <!-- END OF _includes/article.html -->

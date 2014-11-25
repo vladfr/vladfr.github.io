@@ -12,13 +12,13 @@ $body-font: 'calluna-regular';
 $body-font-italic: 'sorts-mill-goudy-italic';
 $body-font-size: 1.1em;
 
-$blog-title-font: 'sorts-mill-goudy-italic';
-$blog-title-font-size: 1.2em;
-$blog-title-text-transform: lowercase;
+$blog-title-font: 'museo-sans';
+$blog-title-font-size: 1.4em;
+$blog-title-text-transform: none;
 $blog-subtitle-font: 'museo-sans';
 
-$navi-font: 'sorts-mill-goudy';
-$navi-font-size: 0.8em;
+$navi-font: 'museo-sans';
+$navi-font-size: 1.4em;
 
 $page-title-align: center;
 
@@ -67,13 +67,16 @@ $paginator-font-family: 'sorts-mill-goudy';
 $paginator-font-size: 1em;
 
 $blockquote-font-family: 'sorts-mill-goudy-italic';
-$blockquote-font-size: 1em;
+$blockquote-font-size: 1.3em;
+$blockquote-width: 220px;
+$blockquote-border: 3px solid black;
+$blockquote-float: right;
 
 /* On the category listing page */
-$year-font-family: 'nevis';
+$year-font-family: 'museo-sans';
 $year-font-size: 1.3em;
 $year-spacing-bottom: 1.5em;
-$month-font-family: 'nevis';
+$month-font-family: 'museo-sans';
 $month-font-size: 1em;
 $month-spacing-bottom: 0.5em;
 $month-indent: 2em;
@@ -84,20 +87,20 @@ $month-indent: 2em;
 $content-width: 45%;
 
 /* Space above and below the header section */
-$header-spacing: 50px; 
+$header-spacing: 50px;
 
 /* Weight of the line at the top of the page */
-$top-line-weight: 8px;     
+$top-line-weight: 8px;
 
 /* Space between header links (this will be in ems) */
-$navi-link-spacing: 0.8;     
+$navi-link-spacing: 0.8;
 $navi-top-spacing: 0.4em;
 
 /* Space between the date and the post */
 $post-content-top-space: 3em;
 
 /* Space between the post and the author/tags */
-$post-content-bottom-space: 2em; 
+$post-content-bottom-space: 2em;
 
 /* Space between posts in ems */
 $space-between-posts: 4;
