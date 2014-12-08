@@ -1,5 +1,6 @@
 .bundle
 .DS_Store
+.powenv
 .sass-cache
 .gist-cache
 .pygments-cache
