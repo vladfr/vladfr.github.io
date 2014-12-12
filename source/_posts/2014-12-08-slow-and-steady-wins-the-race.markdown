@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_title
 title: "Slow and steady wins the race"
 date: 2014-12-08 12:45:44 +0200
 comments: true
