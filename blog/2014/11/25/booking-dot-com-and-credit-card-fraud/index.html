@@ -9,7 +9,7 @@
 		<meta content="" name="description">
 		<meta content="@vladfr" name="author">
 
-		<title>Monday morning, 3 am &mdash; @vladfr</title>
+		<title>Booking.com and Credit Card Fraud &mdash; @vladfr</title>
 
 		<!-- Styles -->
 		<link href="/stylesheets/main.css" rel="stylesheet">
@@ -47,29 +47,52 @@
 </div>
 
 
-    <div class="hero-image" style="background-image: url(/images/nightswimming.jpg)">
+    <div class="hero-image" style="background-image: url(/images/amsterdam.png)">
     </div>
 
     
+    <div class="hero-caption">
+        image:&nbsp;
+        
+            <a href="https://www.flickr.com/photos/mauro9/5068223866">
+        
+        mauro
+        
+            </a>
+        
+    </div>
+    
 <header>
-	<h1><a href="/blog/2014/10/06/monday-morning/">Monday morning, 3 am</a></h1>
-	<time>06 October 2014</time>
+	<h1><a href="/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/">Booking.com and Credit Card Fraud</a></h1>
+	<time>25 November 2014</time>
 </header>
 
 <div class="wrap wrap-shadow">
 	<!-- START OF _includes/article.html -->
 <article>
 	<div class="content">
-		<p>Not feeling very productive at 3 am; I am not able to sleep either.</p>
+		<p class=small><em>Update 10 dec:</em> I&#8217;ve contacted Booking.com back in November but I&#8217;ve yet to hear from them. No funny transactions on my credit card so far, so at least that&#8217;s good.</p>
 
-<p>I resort to music. Seems like a good excuse to work on the blog &ndash; finally (eventually I&rsquo;d get to it, I guess it&rsquo;s just one of those things that you know its time is coming, but <em>now</em> is never the time, though somewhere in your distant future it undoubtedly will be).</p>
 
-<p><em>(also not a good time to look at <a href="https://rubygems.org/gems/rake">rake</a> tasks for the first time)</em></p>
+<p>We took a weekend trip to Sighisoara recently &ndash; a small medieval town in the heart of Romania. While it was a nice stay, there&rsquo;s one little thing that bothered me greatly.</p>
 
-<p>So here it is: my 3AM playlist, Enjoy:</p>
+<p>I used <a href="http://booking.com">Booking.com</a> to rent a hotel room, and I had to guarantee my reservation to the hotel with a credit card. Upon arrival at said hotel, I was baffled to see my full credit card details, including my <abbr>CVV/CVC</abbr>, printed on a piece of paper.</p>
 
-<object width="600" height="250" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gsPlaylist10142263922" name="gsPlaylist10142263922"><param name="movie" value="http://grooveshark.com/widget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&playlistID=101422639&p=0&bbg=000000&bth=000000&pfg=000000&lfg=000000&bt=ffffff&pbg=ffffff&pfgh=ffffff&si=ffffff&lbg=ffffff&lfgh=ffffff&sb=ffffff&bfg=e8365f&pbgh=e8365f&lbgh=e8365f&sbh=e8365f" /><object type="application/x-shockwave-flash" data="http://grooveshark.com/widget.swf" width="600" height="250"><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&playlistID=101422639&p=0&bbg=000000&bth=000000&pfg=000000&lfg=000000&bt=ffffff&pbg=ffffff&pfgh=ffffff&si=ffffff&lbg=ffffff&lfgh=ffffff&sb=ffffff&bfg=e8365f&pbgh=e8365f&lbgh=e8365f&sbh=e8365f" /><span><a href="http://grooveshark.com/search/playlist?q=Monday%20Morning%2C%203%20AM%20Vlad%20Fratila" title="Monday Morning, 3 AM by Vlad Fratila on Grooveshark">Monday Morning, 3 AM by Vlad Fratila on Grooveshark</a></span></object></object>
+<p>Yes, you read it right: <em>my full credit card data</em>. Once home, I went through the purchase process again, went through email receipts and Booking.com&rsquo;s Privacy and Terms pages &ndash; there is no mention of this what-so-ever. Also of interest: there&rsquo;s no mention of PCI-DSS on their website, which should have ticked me off, were I not overjoyed at the thought of our upcoming getaway.</p>
 
+<blockquote><p>Booking.com has over 500.000 listings as of mid-2014.</p></blockquote>
+
+<p>Booking.com is one of the leading travel sites, with over 200M monthly visits as of June this year. While the bulk of its traffic comes from Europe, the web site is rapidly growing in the United States (source: <a href="http://skift.com/2014/06/17/the-most-popular-online-booking-sites-in-travel-2014-edition/">skift.com</a>). In July 2014, booking.com <a href="http://news.booking.com/one-in-half-a-million/">announced</a> they passed 500.000 listings.</p>
+
+<p>Acquired in 2006 by the US-based <a href="http://quotes.morningstar.com/stock/s?t=PCLN">Priceline group</a>, Booking.com is the group&rsquo;s highest earner, making over 2/3 of the total revenue (source: <a href="http://www.bloomberg.com/news/2013-01-22/booking-com-challenging-parent-priceline-in-u-s-travel.html">bloomberg.com</a>). Priceline&rsquo;s share price continues to grow steadily since the Booking.com acquisition, which analysts consider the most profitable travel acquisition of the past decade, <a href="http://www.tnooz.com/article/why-pricelines-purchase-of-booking-com-was-the-most-profitable-travel-deal-of-the-2000s/">as cited by tnooz.com</a>.</p>
+
+<blockquote><p>Booking.com is based in Amsterdam &ndash; the host of the &ldquo;PCI Europe&rdquo; event.</p></blockquote>
+
+<p>Booking.com is based in Amsterdam, Netherlands &ndash; a city hosting the 8th edition of the <a href="http://www.pci-portal.com/event/pcieurope14">PCI Europe</a> conference in just a few days. The irony won&rsquo;t escape anyone.</p>
+
+<p>I don&rsquo;t understand how this is possible, so I&rsquo;ll keep looking into the issue. My first action will be to contact Booking.com themselves and see what they have to say. I found many posts on the web with similar issues, some dating as far as <a href="http://www.complaintsboard.com/complaints/bookingcom-c238032.html">2010</a>. Any thoughts are appreciated.</p>
+
+<p>Comment on <a href="https://news.ycombinator.com/item?id=8660105">HackerNews</a>!</p>
 
 		
 		
@@ -78,7 +101,7 @@
 		
         	<ul class="sharing">
   
-  <li><a href="//twitter.com/share" class="twitter-share-button" data-url="http://vladfr.github.io/blog/2014/10/06/monday-morning/" data-via="vladfr" data-counturl="http://vladfr.github.io/blog/2014/10/06/monday-morning/" >Tweet</a></li>
+  <li><a href="//twitter.com/share" class="twitter-share-button" data-url="http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/" data-via="vladfr" data-counturl="http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/" >Tweet</a></li>
   
   
   
@@ -98,7 +121,7 @@
 		
 			Tagged under
 		
-    <a class='category' href='/blog/categories/music/'>music</a>
+    <a class='category' href='/blog/categories/blog/'>blog</a>
 	
 
 
@@ -106,23 +129,6 @@
 		
 
 		
-
-<div id="disqus_thread"></div>
-<script type="text/javascript">
-      var disqus_shortname = 'vladfr';
-      
-        
-        // var disqus_developer = 1;
-        var disqus_identifier = 'http://vladfr.github.io/blog/2014/10/06/monday-morning/';
-        var disqus_url = 'http://vladfr.github.io/blog/2014/10/06/monday-morning/';
-        var disqus_script = 'embed.js';
-      
-    (function () {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/' + disqus_script;
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    }());
-</script>
 
 
 
