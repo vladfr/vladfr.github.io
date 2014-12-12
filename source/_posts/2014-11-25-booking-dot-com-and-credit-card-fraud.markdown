@@ -10,6 +10,8 @@ image-credit: mauro
 image-credit-link: https://www.flickr.com/photos/mauro9/5068223866
 ---
 
+<p class=small><em>Update 10 dec:</em> I've contacted Booking.com back in November but I've yet to hear from them. No funny transactions on my credit card so far, so at least that's good.</p>
+
 We took a weekend trip to Sighisoara recently - a small medieval town in the heart of Romania. While it was a nice stay, there's one little thing that bothered me greatly.
 
 I used [Booking.com](http://booking.com) to rent a hotel room, and I had to guarantee my reservation to the hotel with a credit card. Upon arrival at said hotel, I was baffled to see my full credit card details, including my <abbr>CVV/CVC</abbr>, printed on a piece of paper.
