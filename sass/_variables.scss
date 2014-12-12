@@ -8,22 +8,23 @@ $gray: #b0b0b0;
 $black: #333;
 
 /* Typography */
-$body-font: 'calluna-regular';
-$body-font-italic: 'sorts-mill-goudy-italic';
+$body-font: 'Merriweather';
+$body-font-italic: 'Merriweather';
 $body-font-size: 1.1em;
 
-$blog-title-font: 'museo-sans';
-$blog-title-font-size: 1.4em;
+$blog-title-font: 'Lato';
+$blog-title-font-size: 1.7em;
 $blog-title-text-transform: none;
-$blog-subtitle-font: 'museo-sans';
+$blog-subtitle-font: 'Lato';
 
-$navi-font: 'museo-sans';
+$navi-font: 'Lato';
 $navi-font-size: 1.4em;
 
 $page-title-align: center;
 
 $post-font-size: 1.1em;
-$post-font-line-height: 1.7em;
+$post-font-weight: 300;
+$post-font-line-height: 1.8em;
 $post-align: left;
 
 $post-first-words-font-variant: small-caps;
@@ -61,22 +62,23 @@ $code-background-color: $white;
 $code-block-line-height: 1.8em;
 
 $caption-font-size: 0.9em;
-$caption-font-family: 'sorts-mill-goudy-italic';
+$caption-font-family: 'Merriweather';
 
-$paginator-font-family: 'sorts-mill-goudy';
+$paginator-font-family: 'Lato';
 $paginator-font-size: 1em;
 
-$blockquote-font-family: 'sorts-mill-goudy-italic';
+$blockquote-font-family: 'Merriweather';
 $blockquote-font-size: 1.3em;
+$blockquote-font-weight: 300;
 $blockquote-width: 220px;
 $blockquote-border: 3px solid black;
 $blockquote-float: right;
 
 /* On the category listing page */
-$year-font-family: 'museo-sans';
+$year-font-family: 'Lato';
 $year-font-size: 1.3em;
 $year-spacing-bottom: 1.5em;
-$month-font-family: 'museo-sans';
+$month-font-family: 'Lato';
 $month-font-size: 1em;
 $month-spacing-bottom: 0.5em;
 $month-indent: 2em;
@@ -84,7 +86,7 @@ $month-indent: 2em;
 /* Layout */
 
 /* Width of the content area */
-$content-width: 45%;
+$content-width: 55%;
 
 /* Space above and below the header section */
 $header-spacing: 50px;

@@ -5,3 +5,4 @@ $font-path: "../font/";
 @include font-face('museo-sans', '#{$font-path}MuseoSans');
 @include font-face('sofia-pro-light', '#{$font-path}SofiaProLight-webfont');
 @include font-face('calluna-regular', '#{$font-path}Calluna-Regular-webfont');
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,700italic|Merriweather:400,300italic,300,900);
