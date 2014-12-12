@@ -1,19 +1,23 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://vladfr.github.io/blog/2014/01/07/twitter-bootstrap-for-complete-hackers/</loc>
-        <lastmod>2014-01-07T03:40:10+02:00</lastmod>
+        <loc>http://vladfr.github.io/blog/2014/10/06/monday-morning/</loc>
+        <lastmod>2014-11-25T22:47:12+02:00</lastmod>
+    </url>
+    <url>
+        <loc>http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/</loc>
+        <lastmod>2014-11-26T00:28:03+02:00</lastmod>
     </url>
     <url>
         <loc>http://vladfr.github.io/blog/archives/</loc>
-        <lastmod>2014-01-07T03:40:10+02:00</lastmod>
+        <lastmod>2014-11-26T00:28:03+02:00</lastmod>
     </url>
     <url>
         <loc>http://vladfr.github.io/</loc>
-        <lastmod>2014-01-07T03:40:10+02:00</lastmod>
+        <lastmod>2014-11-26T22:06:39+02:00</lastmod>
     </url>
     <url>
         <loc>http://vladfr.github.io/robots.txt</loc>
-        <lastmod>2014-01-07T02:58:14+02:00</lastmod>
+        <lastmod>2014-10-06T07:20:07+03:00</lastmod>
     </url>
 </urlset>

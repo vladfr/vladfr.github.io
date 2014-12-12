@@ -1,60 +1,79 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[vlad fratila]]></title>
-  <link href="http://vladfr.github.io/atom.xml" rel="self"/>
-  <link href="http://vladfr.github.io/"/>
-  <updated>2014-01-07T03:40:25+02:00</updated>
-  <id>http://vladfr.github.io/</id>
-  <author>
-    <name><![CDATA[Vlad Fratila]]></name>
-    
-  </author>
-  <generator uri="http://octopress.org/">Octopress</generator>
+	<title><![CDATA[@vladfr]]></title>
+	<link href="http://vladfr.github.io/atom.xml" rel="self"/>
+	<link href="http://vladfr.github.io/"/>
+	<updated>2014-11-26T22:06:44+02:00</updated>
+	<id>http://vladfr.github.io/</id>
+	<author>
+		<name><![CDATA[Vlad Frățilă]]></name>
+		
+	</author>
+	<generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Twitter Bootstrap for complete hackers]]></title>
-    <link href="http://vladfr.github.io/blog/2014/01/07/twitter-bootstrap-for-complete-hackers/"/>
-    <updated>2014-01-07T03:22:46+02:00</updated>
-    <id>http://vladfr.github.io/blog/2014/01/07/twitter-bootstrap-for-complete-hackers</id>
-    <content type="html"><![CDATA[<p>I&rsquo;ve tried now more than once to get started with Bootstrap efficiently. I find it&rsquo;s a nice framework for authoring when you&rsquo;re a hard-core geek, but I lack design practice (I like to think that it&rsquo;s the only thing I&rsquo;m missing when it comes to visual design &ndash; although alas, the voice of reason yells loudly) so I decided to make an exhaustive list of all the little things to turn Bootstrap into a powerhouse.</p>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Booking.com and Credit Card Fraud]]></title>
+		
+		<link href="http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/"/>
+		<updated>2014-11-25T19:29:55+02:00</updated>
+		<id>http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>We took a weekend trip to Sighisoara recently &ndash; a small medieval town in the heart of Romania. While it was a nice stay, there&rsquo;s one little thing that bothered me greatly.</p>
 
-<p>This will be a work-in-progress, but the goal is to have as few resources as possible at the best quality, i.e. he most complete component (slider, modal) or the two most representative &ldquo;Flat Design&rdquo; themes.</p>
+<p>I used <a href="http://booking.com">Booking.com</a> to rent a hotel room, and I had to guarantee my reservation to the hotel with a credit card. Upon arrival at said hotel, I was baffled to see my full credit card details, including my <abbr>CVV/CVC</abbr>, printed on a piece of paper.</p>
 
-<h2>Articles</h2>
+<p>Yes, you read it right: <em>my full credit card data</em>. Once home, I went through the purchase process again, went through email receipts and Booking.com&rsquo;s Privacy and Terms pages &ndash; there is no mention of this what-so-ever. Also of interest: there&rsquo;s no mention of PCI-DSS on their website, which should have ticked me off, were I not overjoyed at the thought of our upcoming getaway.</p>
 
-<h2>Templates</h2>
+<blockquote><p>Booking.com has over 500.000 listings as of mid-2014.</p></blockquote>
 
-<p><a href="http://startbootstrap.com/modern-business">http://startbootstrap.com/modern-business</a></p>
+<p>Booking.com is one of the leading travel sites, with over 200M monthly visits as of June this year. While the bulk of its traffic comes from Europe, the web site is rapidly growing in the United States (source: <a href="http://skift.com/2014/06/17/the-most-popular-online-booking-sites-in-travel-2014-edition/">skift.com</a>). In July 2014, booking.com <a href="http://news.booking.com/one-in-half-a-million/">announced</a> they passed 500.000 listings.</p>
 
-<h2>Themes</h2>
+<p>Acquired in 2006 by the US-based <a href="http://quotes.morningstar.com/stock/s?t=PCLN">Priceline group</a>, Booking.com is the group&rsquo;s highest earner, making over 2/3 of the total revenue (source: <a href="http://www.bloomberg.com/news/2013-01-22/booking-com-challenging-parent-priceline-in-u-s-travel.html">bloomberg.com</a>). Priceline&rsquo;s share price continues to grow steadily since the Booking.com acquisition, which analysts consider the most profitable travel acquisition of the past decade, <a href="http://www.tnooz.com/article/why-pricelines-purchase-of-booking-com-was-the-most-profitable-travel-deal-of-the-2000s/">as cited by tnooz.com</a>.</p>
 
-<h2>#</h2>
+<blockquote><p>Booking.com is based in Amsterdam &ndash; the host of the &ldquo;PCI Europe&rdquo; event.</p></blockquote>
 
-<p>Flat
-<a href="http://cardeostrap.cardeo.ca/">http://cardeostrap.cardeo.ca/</a>
-<a href="http://flatstrap.org/index.html">http://flatstrap.org/index.html</a></p>
+<p>Booking.com is based in Amsterdam, Netherlands &ndash; a city hosting the 8th edition of the <a href="http://www.pci-portal.com/event/pcieurope14">PCI Europe</a> conference in just a few days. The irony won&rsquo;t escape anyone.</p>
 
-<p>Builders
-<a href="http://pikock.github.io/bootstrap-magic/app/index.html#!/editor">http://pikock.github.io/bootstrap-magic/app/index.html#!/editor</a></p>
+<p>I don&rsquo;t understand how this is possible, so I&rsquo;ll keep looking into the issue. My first action will be to contact Booking.com themselves and see what they have to say. I found many posts on the web with similar issues, some dating as far as <a href="http://www.complaintsboard.com/complaints/bookingcom-c238032.html">2010</a>. Any thoughts are appreciated.</p>
 
-<h2>Components</h2>
+<p>Comment on <a href="https://news.ycombinator.com/item?id=8660105">HackerNews</a>!</p>
+]]>
+		</content>
+	</entry>
+	
+	<entry>
+		
+			<title type="html"><![CDATA[Monday morning, 3 am]]></title>
+		
+		<link href="http://vladfr.github.io/blog/2014/10/06/monday-morning/"/>
+		<updated>2014-10-06T04:42:36+03:00</updated>
+		<id>http://vladfr.github.io/blog/2014/10/06/monday-morning</id>
+		<content type="html">
+			<![CDATA[
+				
+					<p></p>
+				
+			]]>
+			<![CDATA[<p>Not feeling very productive at 3 am; I am not able to sleep either.</p>
 
-<p><a href="https://github.com/mapb1990/bootstrap-social-buttons">https://github.com/mapb1990/bootstrap-social-buttons</a>
-<a href="http://tableclothjs.com/">http://tableclothjs.com/</a></p>
+<p>I resort to music. Seems like a good excuse to work on the blog &ndash; finally (eventually I&rsquo;d get to it, I guess it&rsquo;s just one of those things that you know its time is coming, but <em>now</em> is never the time, though somewhere in your distant future it undoubtedly will be).</p>
 
-<h2>Javascript</h2>
+<p><em>(also not a good time to look at <a href="https://rubygems.org/gems/rake">rake</a> tasks for the first time)</em></p>
 
-<p><a href="http://jschr.github.io/bootstrap-modal/bs3.html">http://jschr.github.io/bootstrap-modal/bs3.html</a>
-<a href="http://jasonbutz.info/bootstrap-lightbox/">http://jasonbutz.info/bootstrap-lightbox/</a>
-<a href="http://exacttarget.github.io/fuelux/#">http://exacttarget.github.io/fuelux/#</a></p>
+<p>So here it is: my 3AM playlist, Enjoy:</p>
 
-<h2>Other lists</h2>
+<object width="600" height="250" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" id="gsPlaylist10142263922" name="gsPlaylist10142263922"><param name="movie" value="http://grooveshark.com/widget.swf" /><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&playlistID=101422639&p=0&bbg=000000&bth=000000&pfg=000000&lfg=000000&bt=ffffff&pbg=ffffff&pfgh=ffffff&si=ffffff&lbg=ffffff&lfgh=ffffff&sb=ffffff&bfg=e8365f&pbgh=e8365f&lbgh=e8365f&sbh=e8365f" /><object type="application/x-shockwave-flash" data="http://grooveshark.com/widget.swf" width="600" height="250"><param name="wmode" value="window" /><param name="allowScriptAccess" value="always" /><param name="flashvars" value="hostname=grooveshark.com&playlistID=101422639&p=0&bbg=000000&bth=000000&pfg=000000&lfg=000000&bt=ffffff&pbg=ffffff&pfgh=ffffff&si=ffffff&lbg=ffffff&lfgh=ffffff&sb=ffffff&bfg=e8365f&pbgh=e8365f&lbgh=e8365f&sbh=e8365f" /><span><a href="http://grooveshark.com/search/playlist?q=Monday%20Morning%2C%203%20AM%20Vlad%20Fratila" title="Monday Morning, 3 AM by Vlad Fratila on Grooveshark">Monday Morning, 3 AM by Vlad Fratila on Grooveshark</a></span></object></object>
 
-<p>There are other lists out there, filled with Boostrap resources, and why not?
-<a href="http://bootsnipp.com/resources#2">http://bootsnipp.com/resources#2</a></p>
-]]></content>
-  </entry>
-  
+]]>
+		</content>
+	</entry>
+	
 </feed>

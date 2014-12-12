@@ -1,0 +1,238 @@
+<!doctype html>
+
+<!-- START OF _layouts/default.html -->
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible" >
+		<meta content="width=device-width,initial-scale=1" name="viewport">
+		<meta content="" name="description">
+		<meta content="@vladfr" name="author">
+
+		<title>Booking.com and Credit Card Fraud &mdash; @vladfr</title>
+
+		<!-- Styles -->
+		<link href="/stylesheets/main.css" rel="stylesheet">
+
+		<!-- Google webfonts -->
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Cousine">
+
+		<!-- jQuery and plugins -->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script src="/js/jquery.zclip.min.js"></script>
+
+		<!-- Syntax highlighter -->
+		<link href="/stylesheets/prettify-hemisu.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript" src="/js/prettify.js"></script>
+
+		<!--<link href="http://feeds.feedburner.com/turkeltaub" rel="alternate" title="@vladfr" type="application/rss+xml" />-->
+
+	</head>
+	<body onload="prettyPrint()">
+
+		<!-- START OF _layouts/post.html -->
+    <div class="site-header">
+<div class="site-title-shadow"></div>
+<div class="site-title">
+    <a class="title" href="/">@vladfr</a>
+    <div class="subtitle">vlad frățilă - web hacker, devops enthusiast</div>
+
+    <div class="navi">
+        <ul>
+            <li><a href="/">Blog</a></li>
+        </ul>
+    </div> <!-- // .navi -->
+</div>
+</div>
+
+
+    <div class="hero-image" style="background-image: url(/images/amsterdam.png)">
+    </div>
+
+    
+    <div class="hero-caption">
+        image:&nbsp;
+        
+            <a href="https://www.flickr.com/photos/mauro9/5068223866">
+        
+        mauro
+        
+            </a>
+        
+    </div>
+    
+<header>
+	<h1><a href="/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/">Booking.com and Credit Card Fraud</a></h1>
+	<time>25 November 2014</time>
+</header>
+
+<div class="wrap">
+	<!-- START OF _includes/article.html -->
+<article>
+	<div class="content">
+		<p>We took a weekend trip to Sighisoara recently &ndash; a small medieval town in the heart of Romania. While it was a nice stay, there&rsquo;s one little thing that bothered me greatly.</p>
+
+<p>I used <a href="http://booking.com">Booking.com</a> to rent a hotel room, and I had to guarantee my reservation to the hotel with a credit card. Upon arrival at said hotel, I was baffled to see my full credit card details, including my <abbr>CVV/CVC</abbr>, printed on a piece of paper.</p>
+
+<p>Yes, you read it right: <em>my full credit card data</em>. Once home, I went through the purchase process again, went through email receipts and Booking.com&rsquo;s Privacy and Terms pages &ndash; there is no mention of this what-so-ever. Also of interest: there&rsquo;s no mention of PCI-DSS on their website, which should have ticked me off, were I not overjoyed at the thought of our upcoming getaway.</p>
+
+<blockquote><p>Booking.com has over 500.000 listings as of mid-2014.</p></blockquote>
+
+<p>Booking.com is one of the leading travel sites, with over 200M monthly visits as of June this year. While the bulk of its traffic comes from Europe, the web site is rapidly growing in the United States (source: <a href="http://skift.com/2014/06/17/the-most-popular-online-booking-sites-in-travel-2014-edition/">skift.com</a>). In July 2014, booking.com <a href="http://news.booking.com/one-in-half-a-million/">announced</a> they passed 500.000 listings.</p>
+
+<p>Acquired in 2006 by the US-based <a href="http://quotes.morningstar.com/stock/s?t=PCLN">Priceline group</a>, Booking.com is the group&rsquo;s highest earner, making over 2/3 of the total revenue (source: <a href="http://www.bloomberg.com/news/2013-01-22/booking-com-challenging-parent-priceline-in-u-s-travel.html">bloomberg.com</a>). Priceline&rsquo;s share price continues to grow steadily since the Booking.com acquisition, which analysts consider the most profitable travel acquisition of the past decade, <a href="http://www.tnooz.com/article/why-pricelines-purchase-of-booking-com-was-the-most-profitable-travel-deal-of-the-2000s/">as cited by tnooz.com</a>.</p>
+
+<blockquote><p>Booking.com is based in Amsterdam &ndash; the host of the &ldquo;PCI Europe&rdquo; event.</p></blockquote>
+
+<p>Booking.com is based in Amsterdam, Netherlands &ndash; a city hosting the 8th edition of the <a href="http://www.pci-portal.com/event/pcieurope14">PCI Europe</a> conference in just a few days. The irony won&rsquo;t escape anyone.</p>
+
+<p>I don&rsquo;t understand how this is possible, so I&rsquo;ll keep looking into the issue. My first action will be to contact Booking.com themselves and see what they have to say. I found many posts on the web with similar issues, some dating as far as <a href="http://www.complaintsboard.com/complaints/bookingcom-c238032.html">2010</a>. Any thoughts are appreciated.</p>
+
+<p>Comment on <a href="https://news.ycombinator.com/item?id=8660105">HackerNews</a>!</p>
+
+		
+		
+	</div>
+	<footer>
+		
+        	<ul class="sharing">
+  
+  <li><a href="//twitter.com/share" class="twitter-share-button" data-url="http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/" data-via="vladfr" data-counturl="http://vladfr.github.io/blog/2014/11/25/booking-dot-com-and-credit-card-fraud/" >Tweet</a></li>
+  
+  
+  
+    <li class="fb-like" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></li>
+  
+</ul>
+
+      	
+		
+
+
+		
+
+
+
+  
+		
+			Tagged under
+		
+    <a class='category' href='/blog/categories/blog/'>blog</a>
+	
+
+
+
+		
+
+		
+
+
+
+		
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '1518880798354282',
+      xfbml      : true,
+      version    : 'v2.1'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+		
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+	</footer>
+</article>
+<!-- END OF _includes/article.html -->
+
+</div> <!-- // .wrap -->
+
+<!-- END OF _/layouts/post.html -->
+
+
+		<footer>
+	<a href="https://twitter.com/vladfr" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @vladfr</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</footer>
+
+<script>
+$(window).scroll(function(){
+  if ($(this).scrollTop() > 0){
+  	$('.hero-image').css('top', -($(this).scrollTop() / 2) + 'px');
+  	var alpha = 0.4 + $(this).scrollTop() / 150
+  	$('.wrap').css('box-shadow', '0px -40px 182px -19px rgba(0,0,0,'+alpha.toPrecision(2)+')');
+
+    var opacity = 1 - ($(this).scrollTop() / 200).toPrecision(2);
+    $('.subtitle').css('opacity', opacity);
+  }
+  else {
+    $('.subtitle').css('opacity', 1);
+  	$('.hero-image').css('top', 0);
+  	$('.wrap').css('box-shadow', '0px -40px 182px -19px rgba(0,0,0,0.3)')
+  }
+});
+</script>
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-57145734-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+	</body>
+	<script>
+		$(document).ready(function() {
+			// Make images center
+			$('p:has(img)').css('text-align', 'center');
+
+			// Add the image's title attribute as a caption
+			$('p:has(img)').append(function () {
+				return '<div class="caption">' + ($('img', this).attr('title') || "") + '</div>';
+			});
+
+			// Prettify code
+			$('code').addClass('prettyprint');
+			$('pre code').addClass('linenums');
+
+			// Copy to clipboard with button
+			$('pre:has(code)').prepend(function(){
+				return '<div class="clip-btn">copy to clipboard</div>';
+			});
+			$('.clip-btn').zclip({
+				path:'/js/ZeroClipboard.swf',
+				copy: $(this).next('code').text(),
+				afterCopy: function(){
+					$(this).replaceWith('<div class="clip-btn">copied!');
+					}
+			});
+		});
+	</script>
+</html>
+<!-- END OF _layouts/default.html -->
